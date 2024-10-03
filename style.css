@@ -61,3 +61,10 @@ h1 {
     /* Poisitions in middle of page */
     object-position: 50% 50%;
 }
+
+#grid-images {
+    /* height: 400px; */
+    /* width: 20%; */
+    display: flex;
+    flex-direction: column;
+}
