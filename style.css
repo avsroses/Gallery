@@ -1,11 +1,13 @@
+/* Import font used for Title */
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
+/* Removes padding and margins from everything */
 * {
     padding: 0;
     margin: 0;
 }
 
-/* bg color for page */
+/* background colour for page */
 body {
     background-color: rgb(199, 222, 189);
 }
@@ -13,12 +15,13 @@ body {
 /* Heading styles */
 h1 {
     font-family: "Rowdies", sans-serif;
+    /* Font size can now change with size of window */
     font-size: calc(2rem + 2vw + 2vh);
     /* Border style */
     border-style: solid;
     border-width: 0.5vw;
     border-radius: 5px;
-    /* Border spacing */
+    /* Border spacing around all edges*/
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 451px;
@@ -32,29 +35,29 @@ h1 {
     align-items: center;
 }
 
-/* Title styles */
-#title-div {
-    /* width set to viewpoint */
+/* One class for width instead or repeating */
+.full-width {
     width: 100vw;
-    height: 50px;
+}
 
+/* Title styling */
+#title-div {
+    height: 50px;
     /* Background of header design */
     background-color: rgb(98, 123, 101);
     background-size: contain;
     height: 130px;
+    /* Font colour */
     color: floralwhite;
 
-}
-
-/* Cover div styling */
-#cover-div {
-    width: 100vw;
 }
 
 /* Cover image styling */
 #cov-img {
     height: 500px;
     width: 70%;
+    /* Fits to box without changing aspect ratio */
     object-fit: cover;
+    /* Poisitions in middle of page */
     object-position: 50% 50%;
 }
