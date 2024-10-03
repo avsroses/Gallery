@@ -56,5 +56,5 @@ h1 {
     height: 400px;
     width: 70%;
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: center top;
 }
