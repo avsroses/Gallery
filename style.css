@@ -25,16 +25,18 @@ h1 {
     padding-right: 451px;
 }
 
-/* Title styles */
-#title {
-    /* width set to viewpoint */
-    width: 100vw;
-    height: 50px;
-
-    /* center content vertically and horizontally */
+/* centers everything without having to repeat this code */
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Title styles */
+#title-div {
+    /* width set to viewpoint */
+    width: 100vw;
+    height: 50px;
 
     /* Background of header design */
     background-color: rgb(98, 123, 101);
@@ -47,9 +49,6 @@ h1 {
 /* Cover div styling */
 #cover-div {
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Cover image styling */
