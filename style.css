@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+#title {
+    width: 100vw;
+    /* center content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
