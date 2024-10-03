@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,24 +10,31 @@ body {
 }
 
 h1 {
-    font-family: cursive;
+    font-family: "Rowdies", sans-serif;
     font-size: calc(2rem + 2vw + 2vh);
+    /* Border style */
+    border-style: solid;
+    border-width: 0.5vw;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 451px;
+    padding-right: 451px;
 }
 
 #title {
-    /*  */
+    /* width set to viewpoint */
     width: 100vw;
+
     /* center content vertically and horizontally */
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* Background of header design */
     background-color: rgb(98, 123, 101);
     background-size: contain;
     height: 130px;
     color: floralwhite;
-    /* Border style */
-    border-style: solid;
-    border-width: 0.5vw;
-    border-radius: 5px;
+
 }
