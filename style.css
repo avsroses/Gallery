@@ -63,6 +63,7 @@ h1 {
     color: floralwhite;
 
 }
+
 /* adds space around title */
 #cover-div {
     margin: 20px;
@@ -78,6 +79,7 @@ h1 {
     object-position: 50% 50%;
 }
 
+/* positioning of images */
 #gallery {
     display: flex;
     flex-direction: column;
