@@ -50,7 +50,7 @@ h1 {
 }
 
 /* Makes images same size */
-.card img{
+.card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -63,6 +63,7 @@ h1 {
     background-color: rgb(98, 123, 101);
     background-size: contain;
     height: 130px;
+    width: 100vw;
     /* Font colour */
     color: floralwhite;
 
@@ -73,9 +74,11 @@ h1 {
     margin: 20px;
 }
 
+
+
 /* Cover image styling */
 #cover-img {
-    height: 500px;
+    height: 300px;
     width: 70%;
     /* Fits to box without changing aspect ratio */
     object-fit: cover;
@@ -83,8 +86,25 @@ h1 {
     object-position: 50% 50%;
 }
 
+/* When screen gets smaller, so does cover image */
+@media (max-width: 800px) {
+    #cover-img {
+        height: 200px;
+    }
+}
 
+/* When screen size gets too small... */
+@media (max-width: 430px) {
+    #cover-img {
+        /* Image no longer displayed */
+        display: none;
+    }
+}
+
+
+/* ************** */
 /* Gallery styles */
+/* ************** */
 #gallery-div {
     display: grid;
     justify-content: center;
@@ -95,7 +115,7 @@ h1 {
 /* Changes item layout for a smaller size of screen */
 @media (max-width: 800px) {
     #gallery-div {
-        grid-template-areas: 
+        grid-template-areas:
             "item1 item2"
             "item3 item4";
     }
