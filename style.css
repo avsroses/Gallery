@@ -4,13 +4,19 @@
 }
 
 body {
-
+    background-color: rgb(199, 222, 189);
 }
 
 #title {
+    /*  */
     width: 100vw;
     /* center content vertically and horizontally */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(98, 123, 101);
+    background-size: contain;
+    font-family: cursive;
+    font-size: 100px;
 }
