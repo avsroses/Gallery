@@ -14,6 +14,7 @@ body {
 
 /* Heading styles */
 h1 {
+    /* Imported fonts */
     font-family: "Rowdies", sans-serif;
     /* Font size can now change with size of window */
     font-size: calc(2rem + 2vw + 2vh);
@@ -59,7 +60,7 @@ h1 {
 /* Title styling */
 #title-div {
     height: 50px;
-    /* Background of header design */
+    /* Background of title design */
     background-color: rgb(98, 123, 101);
     background-size: contain;
     height: 130px;
@@ -69,7 +70,7 @@ h1 {
 
 }
 
-/* adds space around title */
+/* adds space around cover image */
 #cover-div {
     margin: 20px;
 }
