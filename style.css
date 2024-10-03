@@ -53,8 +53,8 @@ h1 {
 }
 
 #cov-img {
-    height: 400px;
+    height: 500px;
     width: 70%;
     object-fit: cover;
-    object-position: center top;
+    object-position: 50% 50%;
 }
