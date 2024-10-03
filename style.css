@@ -70,7 +70,7 @@ h1 {
 }
 
 /* Cover image styling */
-#cov-img {
+#cover-img {
     height: 500px;
     width: 70%;
     /* Fits to box without changing aspect ratio */
